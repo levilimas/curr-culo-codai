@@ -1,108 +1,117 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
-    <script src="https://kit.fontawesome.com/28b0c62ac0.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Currículo Codaí</title>
 </head>
 
 <body>
-    <header class="main-header">
-        <img src="/Imagens/img1.png" class="main-header-img1" class="image-fluid" alt="my photo">
-
-        <h1 class="main-header-title">
-            <strong>Levi Miquéias Lima e Silva</strong><br> Graduando em Engenharia de Software<br>
-            <p>Brasileiro, 28 anos, solteiro.</p>
-        </h1>
-
-        <foot class="main-header-foot">
-            <ul>
-                <li><i class="fa fa-instagram" aria-hidden="true"></i>@levilimas</li>
-                <li><i class="fa fa-envelope" aria-hidden="true"></i> leviimediata@hotmail.com</li>
-                <li><i class="fa fa-mobile" aria-hidden="true"></i> (88) 99783-0949</li>
-            </ul>
-        </foot>
-    </header>
-
-    <main class="main-content">
-        <h1>Currículo</h1><br>
-
-        <section class="main-content-objetivo">
-            <h2>Objetivos</h2>
-
-            <ul>
-                <li>Tornar-me um ótimo programador</li>
-                <li>Absorver experiência de mercado com esse novo aprendizado.</li>
-                <li>Aprender novas tecnologias e tendências de mercado.</li>
-                <li>Praticar os conhecimentos adquiridos ao longo da trajetória do curso na Growdev e na faculdade.</li>
-                <li>Adquirir conhecimento para o desenvolvimento de outras aplicações como desktop e mobile.</li>
-                <li>Aperfeiçoar relações humanas no meio profissional.</li>
-                <li>Adquirir experiência no desenvolvimento de aplicações.</li>
-            </ul>
-        </section><br>
-
-        <section class="main-content-cursos">
-            <h2>Cursos e Workshops</h2>
-            <ul>
-                <li>Workshop EMPRETEC -SEBRAE</li>
-                <li>Bootcamp Become a Remote - Digital Inovation One</li>
-                <li>Bootcamp Go Stack - Rocketseat - (Início - cursando)</li>
-
-
-            </ul>
-        </section><br>
-
-        <section class="main-content-vivencias">
-            <h2>Experiências Profissionais</h2>
-            <ul>
-                <h6><strong> Include Jr</strong></h6>
-                <li> Cargo Desenvolvedor web front end Período do emprego - fev. de 2020 – o momento. <br> Localidade - Russas. <br> Atuando atualmente em projetos de desenvolvimento de sites e sistemas web. Tecnologias: HTML - CSS - Bootstrap - Java Script
-                    - Wordpress.</li>
-                <li>Cargo Trainee Estágio Período do emprego - set. de 2019 – fev. de 2020 Duração - 6 meses. <br> Localidade Russas, CE, Brasil </li>
-                <br><br>
-
-                <h6><strong> Empacotadora e Distribuidora Imediata LTDA</strong>r</h6>
-                <li>Gerente administrativo.
-                    <br> Período do emprego - jun. de 2012 – out. de 2012.
-                    <br> Duração 5 meses.</li>
-                <br><br>
-
-                <h6><strong> Empacotadora e Distribuidora Imediata LTDA</strong>r</h6>
-                <li>Gerente administrativo. <br> Período do emprego - jun. de 2012 – out. de 2012.<br> Duração 5 meses.</li>
-                <li>Representante comercial de vendas. <br> Período do emprego jul. de 2011 – jun. de 2012 <br> Duração 1 ano</li>
-                <br><br>
-
-                <h6><strong>Rio do Peixe Group</strong></h6>
-                <li>Representante Comercial. <br> mai. de 2011 – jul. de 2011 <br>Duração 3 meses.</li>
-            </ul>
-        </section>
-        <br>
-
-        <section>
-            <h2>Formação</h2>
-            <h6><strong>Escolaridade</strong></h6>
-            <li>Formação superior (cursando)</li>
-            <h6><strong>Graduação</strong></h6>
-            <li>Engenharia de Software - Universidade Federal do Ceará (cursando)<br>Término - Dezembro de 2022</li>
-
-
-        </section><br>
-
-        <section>
-            <h2>Dados Pessoais</h2>
-            <p>Solteiro, 28 anos.<br> Nascido em Varjota - CE.<br>
-            </p>
-        </section><br>
-
-        <footer class="rodape">
-            <div class="container-fluid">
-
+    <div class="container-fluid container-linear">
+        <div class="row container-card">
+            <div class="offset-lg-3 col-md-3 col-lg-3 card-col">
+                <div class="card card-perfil">
+                    <div class="img-card-perfil">
+                        <img src="./imagens/levi.JPG" alt="My Photo" class="card-image mx-auto d-block">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="text-center card-title" id="nome-no-html"></h5>
+                        <hr classs="hr">
+                        <p class="text-center" id="cargo-no-html"></p>
+                        <div class="botoes-card">
+                            <!---- Botão Sobre ----->
+                            <button onclick="clickNoSobre()" class="btn mr-1" id="btn-sobre" target="_blank">Sobre</button>
+                            <!---- Botão Projetos  ----->
+                            <button onclick="clickNoProjetos()" class="btn ml-1 btn-card" id="btn-projetos" target="_blank">Projetos</button>
+                        </div>
+                        <div class="icon-redes-sociais">
+                            <div class="links-redes-sociais mt-2">
+                                <a href="https://linkedin.com/in/levi-limas" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/levilimas" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.instagram.com/levilimas/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://www.facebook.com/levi.lima" target="_blank">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p><i class="fa fa-copyright" aria-hidden="true"></i> By Levi Lima</p>
-        </footer>
-    </main>
+            <div class="col-md-6 col-lg-6 text-body">
+                <div class="text" id="texto-1">
+                    <h1 class="title-text">Olá</h1>
+                    <h4 class="title-subtitle">Bem vindo ao meu currículo !</h4>
+                    <p>Bem, sou Levi Lima, estudante de Engenharia de software na Universidade Federal do Ceará e estou concorrento a uma vaga no programa starter da Growdev. Tenho muita fome de aprendizado e sou apaixonado pela área que hoje atuo. Tenho
+                        atuado numa empresa Junior, no caso, Include Jr, que é uma empresa de desenvolvimento de software e consultoria, que tem o objetivo de dar aos alunos da UFC-Campus Russas, uma vivência com o mercado de trabalho, porém, como somos
+                        uma empresa fundada, gerida e todos seus executivos são alunos, temos ainda algumas limitações, porém. temos nos empenhado pra entregar os melhores serviços, e isso faz parte do meu sangue e do sangue de cada um que se dispôes
+                        a esse programa voluntário. E isso me faz mais ainda, querer participar do programa da Growdev e aprender mais para conquistar minha vaga no Mercado de trabalho.
+                    </p>
+                    <p>Conhecimentos básicos: HTML5, CSS3, Javascrip, Python, C, métodos ágeis (scrum), e levantamento de Requisitos.</p>
+                    <p>
+                        <a href="https://drive.google.com/file/d/16iZBixCmsWJwO-W6nE11PhByggwQF2LG/view?usp=sharing" target="_blank">Link para Meu currículo.pdf</a>
+                        <br>
+                        <a href="https://linkedin.com/in/levi-limas" target="_blank">link para meu perfil do Linkedin.</a>
+                    </p>
+                </div>
+                <div class="text" id="texto-2">
+                    <h1 class="title-text">Olá</h1>
+                    <h4 class="title-subtitle">Alguns projetos que trabalhei</h4>
+                    <p>
+                        <a target="_blank" href=https://github.com/levilimas>Site do Github - Aqui estão alguns dos meus repositórios de Projetos.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <div class="row" id="footer-elements">
+            <div class="col-md-3 col-lg-3">
+                <h4>Telefone:</h4>
+                <p>(88)99714-0286</p>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <div class="email">
+                    <h4>Email</h4>
+                    <p>leviimediata@hotmail.com</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <h4>Siga</h4>
+                <div class="links-redes-sociais">
+                    <a href="https://linkedin.com/in/levi-limas" target="_blank">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://github.com/levilimas" target="_blank">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com/levilimas/" target="_blank">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.facebook.com/levi.lima/" target="_blank">
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="row text-center mb-2">
+            <small>2020 <a href="https://github.com/levilimas" target="_blank">Growdev - Levi Lima</a></small>
+        </div>
+
+    </footer>
+
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
